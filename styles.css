@@ -1,0 +1,53 @@
+body {
+    background-color: #494949;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+  }
+  
+  @font-face {
+    font-family: publicPixel;
+    src: url(font/PublicPixel.ttf);
+  }
+  
+  h1 {
+    font-family: publicPixel;
+    color: white;
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: white;
+    font-family: publicPixel;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 15px;
+    font-family: publicPixel;
+  }
+  
+  canvas {
+    image-rendering: pixelated;
+    background-color: #c48040;
+    border: 2px solid black;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  #tutorial {
+    text-align: center;
+    background-color: #6ac54c;
+    width: 700px;
+    border: 2px solid black;
+    font-size: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid;
+    font-family: publicPixel;
+    font-size: 15px;
+  }
